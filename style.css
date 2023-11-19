@@ -1,0 +1,14 @@
+
+.nav-link:hover{
+    color: rgb(170, 172, 175) !important
+}
+.navbar{
+    background-color: #16182B !important;
+}
+.navbar-toggler{
+    line-height: 1;
+    color: rgb(248, 246, 250);
+    background-color: #270455;
+    background: #40409f;
+}
+
