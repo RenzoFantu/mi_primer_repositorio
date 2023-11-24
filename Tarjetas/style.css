@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo-tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.tarjetas{
+    background-color: rosybrown;
+    display: flex;
+    justify-content:space-around
+   
+    
+    
+}  
+.tarjetas img{
+    max-width: 100%;
+}
+
+.tarjeta1{
+    background-color: aquamarine;
+    width: 300px;
+    
+      
+}
+.tarjeta2{
+    background-color: aqua;
+    width: 300px;
+}
+.tarjeta3{
+    background-color:blue;
+    width: 300px;
+
+    
+}
+.tarjeta3 img{
+    width: 300px;
+}
+.tarjeta1 img{
+    width: 300px;
+}
+.tarjeta2 img{
+    width: 300px;
+}
