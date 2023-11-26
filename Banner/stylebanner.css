@@ -10,7 +10,7 @@ body{
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
-.container{
+.container-baner{
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;

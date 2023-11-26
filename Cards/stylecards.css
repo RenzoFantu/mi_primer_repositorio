@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Raleway:wght@100;200;400;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color:#FAFAFA;
+}
+.container-card{
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.titulo-tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+.titulo-tarjetas h3{
+    padding: 10px;
+    font-size: 20px;
+    font-weight:600;
+}
+.titulo-tarjetas h1{
+    padding: 5px;
+    font-weight: bolder;
+}
+.titulo-tarjetas h2{
+    padding: 10px;
+    font-weight: 400;
+    color: grey;
+    font-size: 25px;
+}
+.card{
+    background-color: white;
+    width: 370px;
+    /*height: 400px;*/
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0,0.1);
+}
+.card-image{
+    height: 190px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car1{
+    background-image: url(photo-06.jpg);
+    background-size: cover;
+}
+.car2{
+    background-image: url(photo-04.jpg);
+    background-size: cover;
+}
+.car3{
+    background-image: url(jakub-explorer.jpg);
+    background-size: cover;
+}
+.card h3{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card p {
+    padding: 10px;
+    color: gray;
+}
+.card h4{
+    color: black;
+}
+
+
+.card h4:hover{
+    text-decoration: underline;
+    color: black;
+}
+.testimonio{
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.testimonio img{
+    border-radius: 100%;
+    width:40px;
+    height: 40px;
+}
+.testimonio-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    /*align-items: center;*/
+
+
+}
+.testimonio-text h4{
+    padding-left: 10px;
+}
+.testimonio-text p{
+    padding-top: 0;
+}
+@media (max-with: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -20,6 +20,19 @@ body{
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
-
+    border-radius: 30px !important;
+   
     
+}
+.card {
+    box-shadow: 0.5px 0.5px 15px 0.5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px !important;
+   
+    
+    
+}
+.card img{
+ border-radius: 8px 8px 0px 0px !important;
+ 
+ 
 }
