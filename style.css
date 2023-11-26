@@ -62,7 +62,7 @@ section{
 
 }
 .seccion_imagen {
-    background: url(photo-03.jpg);
+    background: url(guitar\ studio.png);
     background-size: cover;
     background-position: center; 
 
@@ -166,9 +166,10 @@ section h2{
 /*agrgue tarjetas*/
 .container-card{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     background-color: #FAFAFA;
-    padding-bottom: 40px;
+    padding: 40px;
+    
     
     
 }
@@ -177,7 +178,7 @@ section h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     color: black;
     background-color: #FAFAFA;
 
@@ -227,14 +228,14 @@ section h2{
     
 }
 .card h3{
-    padding: 10px;
+    padding: 20px 20px 0px 20px;
 }
 .card h2{
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
 }
 .card p {
-    padding: 10px;
+    padding: 0px 20px 0px 20px;
     color: gray;
 }
 .card h4{
@@ -266,11 +267,15 @@ section h2{
 
 }
 .testimonio-text h4{
-    padding-left: 10px;
+    padding-left: 20px;
+    font-size: medium;
+    margin: 0
 }
 .testimonio-text p{
-    padding-top: 0;
+    padding-left;10px;
     margin: 0px;
+    font-size: small;
+    
 }
 @media (max-with: 768px) {
     .container{
