@@ -301,9 +301,10 @@ section h2{
 .container-baner{
     
     
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;*/
-    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    
     
 }
 .left{
