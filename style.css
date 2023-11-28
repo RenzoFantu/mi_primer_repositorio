@@ -5,11 +5,11 @@
     
 }
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    color:white 
+    color:white; 
 }
 
 .nav-link:hover{
@@ -34,7 +34,7 @@ section{
     margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 600px;
+    height: 100vh;
     
 }
 
@@ -104,14 +104,14 @@ section h1{
     font-size: 2.3rem;
     line-height: 2.3rem;
     font-weight:bolder; 
-    margin-bottom: 50px; 
+    margin-bottom: 10%; 
     
 }
 section h2{
     font-size: 18px;
     font-weight: 500;
     color: rgb(202, 202, 202);
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 
 /*section {
@@ -170,10 +170,10 @@ section h2{
 }
 /*agrgue tarjetas*/
 .container-card{
-    display: flex;
-    justify-content:space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #FAFAFA;
-    padding: 40px;
+    padding: 10%;
     
     
     
@@ -301,9 +301,9 @@ section h2{
 .container-baner{
     
     
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 600px;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    height: auto;
     
 }
 .left{
