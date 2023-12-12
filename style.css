@@ -156,11 +156,11 @@ section h2{
 /*agrgue tarjetas*/
 .container-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     background-color: #FAFAFA;
-    padding: 10%;
+    padding: 50px;
     
     
     
