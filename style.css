@@ -123,18 +123,25 @@ section h2{
     height: 45px;
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    justify-content: space-around;
     
 }
 .bonton-enviar{
     margin-left: 5px;
     color: black;
-    width: 80px;
+    width: 30%;
     height: 45px;
     border-radius: 10px;
     background-color:aqua
 }
-.bonton-enviar :hover{
-    background-color: rgb(0, 128, 128);
+.bonton-enviar:hover{
+    background-color: rgb(15, 173, 173);
+    color: white;
 }   
 .seccion_text h4{
     font-weight: lighter;
@@ -340,7 +347,7 @@ section h2{
     
 }
 .right a{
-    background: rgb(238, 235, 235);
+    background: aqua;
     color: #111827;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
@@ -352,7 +359,8 @@ section h2{
 
 }
 .right a:hover{
-    background-color: aqua;
+    background-color: rgb(15, 173, 173);
+    color: white;
 }
 /*@media (max-with: 768px){
     .container{
