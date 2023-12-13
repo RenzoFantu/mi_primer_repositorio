@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Raleway:wght@100;200;300;400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
     
@@ -41,18 +40,6 @@ section{
     
 }
 
-/*section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;viene por defecto
-    height: 600px;
-    gap: 40px;
-    padding: 40px;
-    background-color: #16182B;
-    
-    
-    
-}*/
 .seccion_text{
     display: flex;
     justify-content: start;
@@ -66,7 +53,7 @@ section{
 
 }
 .seccion_imagen {
-    background-image: url(guitar_studio.png);
+    background-image: url(img/guitar_studio.png);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -190,12 +177,14 @@ form{
 .titulo-tarjetas h1{
     padding: 5px;
     font-weight: bolder;
+    text-align: center;
 }
 .titulo-tarjetas h2{
     padding: 10px;
     font-weight: 400;
     color: grey;
     font-size: 25px;
+    text-align: center;
 }
 .card{
     background-color: white;
@@ -212,17 +201,17 @@ form{
     border-radius: 13px 13px 0 0;
 }
 .car1{
-    background-image: url(photo-06.jpg);
+    background-image: url(img/photo-06.jpg);
     background-size: cover;
     
 }
 .car2{
-    background-image: url(photo-04.jpg);
+    background-image: url(img/photo-04.jpg);
     background-size: cover;
     
 }
 .car3{
-    background-image: url(jakub-explorer.jpg);
+    background-image: url(img/jakub-explorer.jpg);
     background-size: cover;
     
 }
