@@ -1,8 +1,6 @@
 <img src="https://github.com/UDDBootcamp/BOOT-M1-SEM4-PROY1/raw/main/imagenes/banner.png"/>
 <h1>PROYECTO 1: Landing de Negocio</h1>
-**Tabla de Contenido**
 
-[TOC]
 
 Este proyecto está enfocado en construir una página "landing" para un negocio para Bootcam de la UDD.
 
